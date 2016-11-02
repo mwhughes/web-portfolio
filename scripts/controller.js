@@ -139,13 +139,13 @@ angular.module('webPortfolio')
       skills: "MEAN stack (mongodb, express, angular, node), javascript, heroku, bootstrap, responsive design",
       imageURL: "https://i.imgsafe.org/8fb62863bb.png",
       exampleURL: "https://our-political-resources.herokuapp.com/#/",
-      description: "Click to visit app.\n\n Disclaimer: This app is running on free dynos from heroku, and thus the server may need to wake from sleepmode, which may cause a 3-5 sec delay on the initial load."},
+      description: "Click to visit app.\n\n Disclaimer: This app is running on free dynos from heroku, and thus the server may need to wake from sleep mode, which may cause a 3-5 sec delay on the initial load."},
 
      {title: "Instant Messanging App",
       skills: "Meteorjs, mongodb, javascript, jquery, bootstrap, responsive design, authentication",
       imageURL: "https://i.imgsafe.org/8fbb54cdb8.png",
       exampleURL: "https://immense-bayou-41698.herokuapp.com/",
-      description: "Click to visit app.\n\n Disclaimer: This app is running on free dynos from heroku, and thus the server may need to wake from sleepmode, which may cause a 3-5 sec delay on the initial load."},
+      description: "Click to visit app.\n\n Disclaimer: This app is running on free dynos from heroku, and thus the server may need to wake from sleep mode, which may cause a 3-5 sec delay on the initial load."},
 
      {title: "Web Connect4",
       skills: "javascript, jquery, html5 canvas, typescript",
@@ -192,7 +192,7 @@ angular.module('webPortfolio')
       skills: "python",
       imageURL: "https://i.imgsafe.org/8fc37c60c2.png",
       exampleURL: "http://www.codeskulptor.org/#user42_kpKHDrCAMO_1.py",
-      description: "Click to play game. \n\nOnce there, you just need to hit play to see the program in action."},
+      description: "Click to play game. \n\nOnce there, you just need to hit play to see the program in action. \n\n Note that the goal of 2048 is to get any row or column to be 2048. "},
 
 
 

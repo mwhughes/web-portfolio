@@ -1,0 +1,26 @@
+
+<div class = "container">
+<div class="jumbotron" style="box-shadow: 10px 10px 5px #3E3F3A">
+<h1 class="section-header">Education </h1> 
+<div ng-repeat="school in education">
+  <div class = "container">
+    <div  class = "row" style = "">
+       
+       
+      <div class = "col-xs-3" style="padding: 20px; padding-top: 30px;"> 
+         
+         <h2>{{school.years}}</h2>
+
+      </div>
+      
+      <div class = "col-xs-9" style= " padding: 20px;"> 
+          <h3> {{school.degree}}, {{school.accolade}} {{school.yearCompleted}} <br> {{school.university}}</h3>
+          
+          <p> {{school.description}}</p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</div>

@@ -1,0 +1,71 @@
+
+<div class = "container">
+
+  <div class="jumbotron" style="box-shadow: 10px 10px 5px #3E3F3A">
+
+
+ 
+    <div  class = "row" >
+            
+      
+      <div class = "col-xs-10 col-xs-offset-1" style= "color: black"> 
+          
+          
+          <p style="font-size: 1.1em"> In the last two years, I have completed 28 programming classes online via coursera.org and edx.org. I have completed all of the following classes with a grade of 99% or better. Starred courses were taken on edx.org, the rest were taken via coursera.org. </p>
+
+       
+
+  
+      </div>
+    </div>
+ 
+  
+</div>
+
+	<h1 class="courses-header"> Programming Courses</h1>
+
+	
+
+
+	<div class="row">
+		<div class= "col-xs-1 col-xs-offset-11" style="padding: 10px;"> 
+			 <div class="btn-group" uib-dropdown is-open="status.isopen">
+      <button id="single-button" type="button" class="btn btn-default" uib-dropdown-toggle ng-disabled="disabled">
+        {{skillTerm}} <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+      	<li role="menuitem"><a ng-click="courseFilter('all')">all</a></li>
+      	<li role="menuitem"><a ng-click="courseFilter('algorithms')">algorithms</a></li>
+        <li role="menuitem"><a ng-click="courseFilter('java ')">java</a></li>
+        <li role="menuitem"><a ng-click="courseFilter('javascript')">javascript</a></li>
+        <li role="menuitem"><a ng-click="courseFilter('python')">python</a></li>
+        <li role="menuitem"><a ng-click="courseFilter('scala')">scala</a></li>
+        <li role="menuitem"><a ng-click="courseFilter('object oriented')">object oriented</a></li>
+        <li role="menuitem"><a ng-click="courseFilter('web development')">web development</a></li>
+        <li role="menuitem"><a ng-click="courseFilter('mongodb')">mongodb</a></li>
+        <li role="menuitem"><a ng-click="courseFilter('database')">databases</a></li>
+        <li role="menuitem"><a ng-click="courseFilter('sql')">sql</a></li>
+      </ul>
+    </div>
+
+	</div>
+
+		<div class = "col-xs-6 col-sm-6 col-md-4 col-lg-3" ng-repeat = "course in courses" >
+
+			<div class="panel panel-default">
+			  <div class="panel-heading" style = "height: 60px; background: #3E3F3A; color: white;">{{course.courseTitle}}</div>
+			  <div class="panel-body" style = "height: 80px;">
+			    {{course.university}}
+			  </div>
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+
+
+
+</div>

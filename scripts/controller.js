@@ -10,7 +10,7 @@ angular.module('webPortfolio')
 .controller('headerController', ['$scope', '$stateParams', '$http',  '$window',
   function($scope, $stateParams, $http, $window) {
 
-      $scope.toggleVal = true;
+      $scope.toggleVal = false;
       $scope.toggleFunct = function(){
         
         $scope.toggleVal = !$scope.toggleVal;

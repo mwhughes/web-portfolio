@@ -1,23 +1,45 @@
-<div style= "width: 100%; background: #3E3F3A;">
+<div style= " background: #3E3F3A;">
 	<div class="container">
-    <a href="https://www.linkedin.com/in/michaelwhughes" class="btn btn-social-icon btn-linkedin">
-      <span class="fa fa-linkedin"></span>
-    </a>
-      <a href= "https://github.com/mwhughes" class="btn btn-social-icon btn-github">
-      <span class="fa fa-github"></span>
-    </a>
-    <a id="academia-button" class="btn button-social-icon" href="https://uconn.academia.edu/MichaelHughes/CurriculumVitae">Academia.edu</a>
 
-    <span style="color: white;" >
-    	
-    	<span class="no-break"> <b> Phone:</b> 860-336-1223 &nbsp;&nbsp;</span> 
-    	<span class="no-break"> <b> Email:</b> michael.hughes.uconn@gmail.com &nbsp;&nbsp;</span>
-    	<span class="no-break"> <b> Address:</b> P.O. Box 1463 Andover, MA 01810</span>
+      <div class="row">
+      <div class = "col-xs-10 col-11-sm"> 
 
-    </span>
+              <a href="https://www.linkedin.com/in/michaelwhughes" class="btn btn-social-icon btn-linkedin">
+          <span class="fa fa-linkedin"></span>
+        </a>
+          <a href= "https://github.com/mwhughes" class="btn btn-social-icon btn-github">
+          <span class="fa fa-github"></span>
+        </a>
+        <a id="academia-button" class="btn button-social-icon" href="https://uconn.academia.edu/MichaelHughes/CurriculumVitae">Academia.edu</a>
+
+        <span style="color: white;" >
+          
+          <span class="no-break"> <b> Phone:</b> 860-576-3068 &nbsp;&nbsp;</span> 
+          <span class="no-break"> <b> Email:</b> michael.hughes.uconn@gmail.com &nbsp;&nbsp;</span>
+          <span class="no-break"> <b> Address:</b> P.O. Box 1463 Andover, MA 01810</span>
+
+        </span>
+
+
+
+
+
+
+      </div>
+
+        <div class = "col-xs-2 col-sm-1 hidden-md hidden-lg hidden-xl"  >
+           <button class="btn btn-default btn-lg toggle-button" ng-click="toggleFunct()">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="glyphicon glyphicon-menu-hamburger"> </span>
+                  
+          </button>
+       </div>
+
+  
     
  </div> 
 </div>
+<navbar-dropdown-dir class= "hidden-md hidden-lg hidden-xl" ng-if = "toggleVal"></navbar-dropdown-dir>
 
 <script>
       (function(){var e,t,n,i,r;i=document.getElementsByTagName("head")[0],n=document.createElement("link"),n.type="text/css",n.rel="stylesheet",n.href="//a.academia-assets.com/stylesheets/academia_buttons.css",n.media="screen",i.appendChild(n),e=document.getElementById("academia-button"),t=document.createElement("span"),t.className="academia-papers-text",t.innerHTML="Academia.edu",r=document.createElement("img"),r.src="//a.academia-assets.com/images/social-buttons/logo.gif",r.className="academia-button-logo",e.innerHTML="",e.appendChild(r),"ac-icon"!==e.className&&e.appendChild(t)}).call(this);

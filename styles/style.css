@@ -1,0 +1,224 @@
+* {
+   box-sizing: border-box;
+  
+  
+}
+
+body {
+  margin: 0px;
+  /*background-image: url('https://i.imgsafe.org/785d3e42b6.jpg');*/
+ 
+  /*background-image: url('https://i.imgsafe.org/78680c9761.jpg');*/
+   background-image: url(' https://i.imgsafe.org/78796c92e8.jpg');
+  background-repeat: no-repeat;
+ /*  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  background-size: cover;
+ /*background-blend-mode: screen;
+  background-color: rgb(100, 100, 100);*/
+}
+
+.panel .test{
+  height: 30vw;
+  
+  
+
+   background-repeat: no-repeat;
+  
+  background-size: 100% 100%;
+}
+
+.btn-group .btn-block{
+  margin-bottom: -10px
+}
+
+.example-heading{
+  height: 100px;
+    text-overflow: ellipsis;
+    color: black;
+    }
+
+  .example-body:hover{
+    background-blend-mode: screen;
+  background-color: rgb(230, 230, 230);
+  padding: 40px;
+  cursor: pointer;
+  }
+
+#nav-title{
+  text-align: center;
+  text-shadow: 1px 1px white;  
+
+}
+
+.no-break{
+  white-space: nowrap;
+}
+
+.toggle-button{
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.panel {
+  box-shadow: 10px 10px 5px #3E3F3A;
+}
+
+.panel-heading{
+  background: #3E3F3A;
+}
+
+.panel-body{
+
+}
+
+ .courses-header{
+  color: white;
+}
+/*
+body {
+  margin: 0px;
+  background-image: url('https://s21.postimg.org/d6c0kv1k7/dice_219263_960_720.jpg');
+  background-repeat: no-repeat;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ background-blend-mode: screen;
+  background-color: #333;
+}
+#body-container{
+  margin: 5%;
+
+}
+#header-nav {
+    margin: 0px;
+    background: rgba(213,77,4, .8);
+    color: black;
+}
+
+#ed-container {
+  width: 90%;
+  min-height: 90%;;
+   background-color:rgba(230,230,230,.7); 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: black;
+   
+}
+
+.ed-content{
+  font-size: 115%;
+  font-weight: bold;
+  
+  
+  
+}
+#description-tag {
+  font-size: 80%;
+}
+.ed-p {
+ position: relative;
+ margin-left: 10%;
+ margin-right: 10%;
+   
+}
+
+ .course-title {
+  color: #3B1502;
+  font-size: 110%;
+ 
+}
+
+
+#programming-container {
+ text-overflow: ellipsis;
+    overflow: hidden;
+  width: 90%;
+   background-color:rgba(230,230,230,.6); 
+  
+  margin: auto;
+  
+  border-radius: 20px;
+  font-weight: bold;
+  
+   
+}
+.prog-container {
+  margin: auto;
+  padding: 
+}
+.year-header{
+  margin-left: 5%;
+  
+  
+}
+.section-header{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.course-class {
+ 
+}
+
+#prog-header {
+  float: center;
+}
+.programming-content{
+  font-size: 90%;
+  font-weight: bold;
+  margin-left: 40px;
+  clear: both;
+}
+
+#filter-btn {
+  
+  float: right;
+  clear: right;
+  margin-right: 5%;
+  margin-top: 2%;
+  background: rgba(213,77,4,.8);
+  color: white;
+  
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .programming-content {
+    font-size: 95%;
+    
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+ .programming-content {
+    font-size: 100%;
+    
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+.panel .test{
+  height: 60vw;
+  
+  
+
+   background-repeat: no-repeat;
+  
+  background-size: 100% 100%;
+}
+}*/

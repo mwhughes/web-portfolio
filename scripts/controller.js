@@ -162,12 +162,13 @@ angular.module('webPortfolio')
      {title: "Google Maps and The Traveling Salesman",
       skills: "java, javafx, algorithm design",
       imageURL: "https://i.imgsafe.org/8fc3a2b1ee.png",
+      exampleURL: "https://github.com/mwhughes/uscd_google_map_uptodate/tree/master/src/roadgraph",
       description: "Click to visit code at github."},
 
      {title: "Google Maps and Earthquake Data",
       skills: "java, javafx, algorithm design",
       imageURL: "https://i.imgsafe.org/8fbcc964b3.png",
-      exampleURL: "https://github.com/mwhughes/scala_calculator/tree/master/src/main/scala/calculator",
+      exampleURL: "https://github.com/mwhughes/uscd-earthquake/tree/master/src/module6",
       description: "Click to visit code at github "}, 
 
       {title: "Scala Reactive Calculator",

@@ -139,7 +139,7 @@ angular.module('webPortfolio')
       skills: "MEAN stack (mongodb, express, angular, node), javascript, heroku, bootstrap, responsive design",
       imageURL: "https://i.imgsafe.org/8fb62863bb.png",
       exampleURL: "https://our-political-resources.herokuapp.com/#/",
-      description: "Click to visit app.\n\n Disclaimer: This app is currently still in a development stage and is running on free dynos from heroku. Thus the server may need to wake from sleep mode, which may cause a 3-5 sec delay on the initial load, and there are currently some place holder sections that are currently being filled in."},
+      description: "Click to visit app.\n\n Disclaimer: This app is currently still in a development stage and is running on free dynos from heroku. Thus the server may need to wake from sleep mode, which may cause a 3-5 sec delay on the initial load, and there are currently some place holder sections and form validation changes that will be dealt with shortly."},
 
      {title: "Instant Messanging App",
       skills: "Meteorjs, mongodb, javascript, jquery, bootstrap, responsive design, authentication",
